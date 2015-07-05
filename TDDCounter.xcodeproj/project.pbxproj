@@ -14,6 +14,9 @@
 		5C0E6CBF1B498CA0008603DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E6CBE1B498CA0008603DE /* Images.xcassets */; };
 		5C0E6CC21B498CA0008603DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E6CC01B498CA0008603DE /* LaunchScreen.xib */; };
 		5C0E6CCE1B498CA0008603DE /* TDDCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E6CCD1B498CA0008603DE /* TDDCounterTests.m */; };
+		5C0E6CD81B498CEE008603DE /* CounterViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E6CD71B498CEE008603DE /* CounterViewControllerTests.m */; };
+		5C0E6CDC1B498D13008603DE /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0E6CDA1B498D13008603DE /* CounterViewController.m */; };
+		5C0E6CDD1B498D13008603DE /* CounterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0E6CDB1B498D13008603DE /* CounterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		5C0E6CC71B498CA0008603DE /* TDDCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0E6CCC1B498CA0008603DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C0E6CCD1B498CA0008603DE /* TDDCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDCounterTests.m; sourceTree = "<group>"; };
+		5C0E6CD71B498CEE008603DE /* CounterViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewControllerTests.m; sourceTree = "<group>"; };
+		5C0E6CD91B498D13008603DE /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
+		5C0E6CDA1B498D13008603DE /* CounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
+		5C0E6CDB1B498D13008603DE /* CounterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CounterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +92,9 @@
 				5C0E6CB61B498CA0008603DE /* AppDelegate.m */,
 				5C0E6CB81B498CA0008603DE /* ViewController.h */,
 				5C0E6CB91B498CA0008603DE /* ViewController.m */,
+				5C0E6CD91B498D13008603DE /* CounterViewController.h */,
+				5C0E6CDA1B498D13008603DE /* CounterViewController.m */,
+				5C0E6CDB1B498D13008603DE /* CounterViewController.xib */,
 				5C0E6CBB1B498CA0008603DE /* Main.storyboard */,
 				5C0E6CBE1B498CA0008603DE /* Images.xcassets */,
 				5C0E6CC01B498CA0008603DE /* LaunchScreen.xib */,
@@ -106,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5C0E6CCD1B498CA0008603DE /* TDDCounterTests.m */,
+				5C0E6CD71B498CEE008603DE /* CounterViewControllerTests.m */,
 				5C0E6CCB1B498CA0008603DE /* Supporting Files */,
 			);
 			path = TDDCounterTests;
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0E6CBD1B498CA0008603DE /* Main.storyboard in Resources */,
+				5C0E6CDD1B498D13008603DE /* CounterViewController.xib in Resources */,
 				5C0E6CC21B498CA0008603DE /* LaunchScreen.xib in Resources */,
 				5C0E6CBF1B498CA0008603DE /* Images.xcassets in Resources */,
 			);
@@ -220,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0E6CBA1B498CA0008603DE /* ViewController.m in Sources */,
+				5C0E6CDC1B498D13008603DE /* CounterViewController.m in Sources */,
 				5C0E6CB71B498CA0008603DE /* AppDelegate.m in Sources */,
 				5C0E6CB41B498CA0008603DE /* main.m in Sources */,
 			);
@@ -230,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0E6CCE1B498CA0008603DE /* TDDCounterTests.m in Sources */,
+				5C0E6CD81B498CEE008603DE /* CounterViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
